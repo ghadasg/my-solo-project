@@ -1,0 +1,187 @@
+*{
+    padding: 0%;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+/*navbar*/
+nav {
+    background-attachment: fixed;
+    background-color: beige;
+    height: 80px;
+    width: 100%;
+}
+#logo{
+    color:rgb(7, 109, 7);
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 10px 100px;
+    
+}
+#list  { 
+    float: right;
+    margin-right: 20px;
+    font-size: 30px;
+    
+}
+a:hover{
+    box-shadow: 0px 0px 5px 0px;
+}
+a { 
+    color: brown;
+}
+nav ul li {
+    color: black;
+    display: inline-block;
+    margin: 0 5px;
+    
+}
+#pannier {
+    width: 30px;
+    height: 30px;
+}
+#login{
+    width: 30px;
+    height: 30px;
+}
+/*Body part*/
+.for{
+    height: 50px; 
+    align-items: center;
+    width: 50%;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.recherche{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+.recherche button{
+    color:white;
+    background-color:rgb(63, 90, 62);
+    font-size: larger;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 100px;
+}
+h2{
+   text-align: center;
+   font-style: italic;
+   font-size: xx-large;
+}
+em {
+    color: green;
+    font-weight: bold;
+}
+.slides{
+    display: flex;
+    justify-content: space-between;
+}
+
+#home{
+    align-items: center;
+    height: 550px;
+    width: 950px;
+    margin-left: 14%;
+    margin-top: 20px;
+
+}  
+#wall{
+    align-items: center;
+    height: 450px;
+    width: 900px;
+    margin-left: 14%;
+    margin-top: 20px;
+
+}
+#cc {
+    align-items: center;
+    height: 450px;
+    width: 900px;
+    margin-left: 14%;
+    margin-top: 20px;
+}
+
+
+#shop {
+    background-color:rgb(27, 26, 26) ;
+    color: white ;
+}
+/*footer*/
+footer{
+    background-color:rgb(211, 211, 168);
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.final {
+    background-color: beige;
+    display: flex;
+    margin-top: 50px;
+}
+
+.fin {
+    margin-left: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+}
+.numéro {
+    display: flex;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+.whats {
+    display: flex;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+.adresse {
+    display: flex;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#contact{
+    padding-left: 100px;
+    font-size: 20px;
+
+}
+
+/*plant*/
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2% 9% 2% 9%;
+}
+.cactus div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2%;
+    color: black;
+    font-weight: bold;
+}
+.cactus img {
+    border-radius: 2%;
+    height: 270px;
+    width: 250px;
+    margin: 10px;
+}
+.cactus div button {
+    color: #fff;
+    background-color: rgb(8, 68, 8);
+    border: #fff;
+    padding: 2% 2%;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 15%;
+}
+.cactus:hover {
+    box-shadow: 0px 0px 5px 0px;
+    cursor: pointer;
+}

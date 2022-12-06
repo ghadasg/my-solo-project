@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title>Nursery Shop </title> 
+    <link rel="stylesheet" type="text/css" href="solo.css">
+
+    </head>
+    <body>
+        <!--Body part-->
+        <!--header-->
+      <nav>
+        <label id='logo'> NurseryShop <label>
+            <ul id="list">
+                <li><a href="solo.html">Home</a></li> 
+                <li><a href="plant.html">Plants</a></li>
+                <li><a href=".">Services</a></li>
+                <li><a href="."><img src="./img/images.jpg" id="login" alt="login"></a></li> 
+                <li><a href="pannier.html"><img src="./img/pannier.jpg" id="pannier"></a></li>
+            </ul>
+      </nav>
+      
+            
+          <!--main-->
+          <div>
+          <form class="recherche" role="search" >
+            <input class="for" type="text" placeholder="What are you looking for?" aria-label="Search" >
+            <button class="mybutt" type="submit">Search</button>
+          </form>
+        </div>
+        <div class="container">
+        <!--<button id="shop"> Shop Now </button>-->
+        <h2>Welcome to our <em>cactus</em> world</h2>
+        <div  class="slides">
+        <img  id="home" src="./img/cactus1.webp" alt="cactus" >
+        <img id="wall" src="./img/pic.jpg" alt="wallpaper" >
+        <img id="cc" src="./img/cactus_arrangements.jpg" alt="wallpaper" >
+        
+        </div>
+
+
+
+        </div>
+          <!--footer-->
+          <footer>
+          <div class="fin">
+            <p id="contact"> Contact us 
+              <br>
+              <div class="numéro">
+                <img src="./img/telephone-forward.svg" alt="tel">
+                <p>52.658.195</p>
+              </div>
+              <div class="whats">
+                <img src="./img/whatsapp.svg" alt="whatsapp">
+                <p>(+216) 52.658.198</p>
+              </div>
+              <div class="adresse">
+                <img src="./img/envelope-at-fill.svg" alt="email">
+                <p>nurseryshop@yahoo.com</P>
+          </div>
+          </p>
+          </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="./solo.js"></script>
+    <script>
+$(document).ready(function(){
+  $("h2").hide()
+  $('#logo').on('mouseover',function(){
+    $("h2").show('slow')
+  });
+  $("#wall").hide()
+  $("#cc").hide()
+  $('#home').on('mouseover',function(){
+    $("#home").hide(1300)
+    $("#wall").show(1300)
+    
+  });
+
+  $('#wall').on('mouseover',function(){
+  $("#wall").hide(2500)
+    $("#cc").show(1300)
+  });
+
+})
+
+    </script>
+    </body>
+</html>
